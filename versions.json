@@ -66,5 +66,9 @@
   "22631": {
     "os": 11,
     "version": "Version 23H2"
+  },
+  "26100": {
+    "os": 11,
+    "version": "Version 24H2"
   }
 }

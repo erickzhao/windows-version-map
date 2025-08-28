@@ -74,6 +74,7 @@ const parseWin11 = async () => {
 
   const currentVersion = $("#windows-11-release-history")
     .siblings("strong")
+    .first()
     .text();
 
   const parsedCurrent = parseVersionString(currentVersion);
