@@ -23,6 +23,7 @@ jobs:
         with:
           node-version: 22
           cache: "npm"
+      - run: npm ci
       - run: npm run update
 
       # Commit all changed files back to the repository
